@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+	<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+        	android:layout_weight="1" >
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" android:padding="2dp">
+		
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/prefs_help" />
+		
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_ringer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_ringer"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_ringer_summary" />
+		</LinearLayout>
+	</LinearLayout>
+		
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_otringer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_otringer"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_otringer_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <CheckBox android:id="@id/dazzle_radio_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_enable_radio"
+                    android:textSize="20sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_radio_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_mobile_data"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_mobile_data"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_mobile_data_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <CheckBox android:id="@id/dazzle_phone_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_phone_radio"
+                    android:textSize="20sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_phone_radio_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_wifi"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_wifi"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_wifi_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <CheckBox android:id="@id/dazzle_wifi_ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_enable_wifi_ap"
+                    android:textSize="20sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/prefs_wifi_ap_help"
+                    android:text="@string/prefs_wifi_ap_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_bluetooth"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_bluetooth"
+					android:textSize="20sp" />
+			<TextView android:id="@+id/bluetooth_help"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_bluetooth_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_gps"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_gps"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_gps_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_airplane"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_airplane"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_airplane_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_sync"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_sync"
+					android:textSize="20sp" />
+			<TextView android:id="@+id/sync_help"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_sync_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+	
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <CheckBox android:id="@id/dazzle_autorotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_auto_rotate"
+                    android:textSize="20sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_auto_rotate_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <CheckBox android:id="@id/dazzle_screen_always_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_screen_always_on"
+                    android:textSize="20sp" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefs_screen_always_on_summary" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+    
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_brightness"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_brightness"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_brightness_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+	
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_otbrightness"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_otbrightness"
+					android:textSize="20sp" />
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_otbrightness_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+			
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_brightauto"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_brightauto"
+					android:textSize="20sp" />
+			<TextView android:id="@+id/brightauto_help"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_brightauto_summary" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/divider" />
+			
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+		<CheckBox android:id="@id/dazzle_otbrightauto"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top" />
+		<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_enable_otbrightauto"
+					android:textSize="20sp" />
+			<TextView android:id="@+id/otbrightauto_help"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/prefs_otbrightauto_summary" />
+		</LinearLayout>
+	</LinearLayout>
+		
+</LinearLayout>
+
+	</ScrollView>
+		
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@android:style/ButtonBar" >
+
+		<Button android:id="@+id/save_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+				android:text="@string/prefs_save" />
+
+	</LinearLayout>
+	
+</LinearLayout>
+

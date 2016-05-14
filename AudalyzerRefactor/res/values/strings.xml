@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audalyzer</string>
+    <string name="description">An audio analyzer for your Android phone.</string>
+
+
+    <string name="eula_title">Not for serious use</string>
+    
+    <string name="eula_text">Audalyzer is a toy spectrum analyser for
+your phone.  Since microphone sensitivity varies between individual devices,
+let alone models, it\'s impossible to generate accurate sound level readings
+with this app; so all data should be taken with a pinch of salt.  dB levels
+are relative to the maximum input level of your device.  Still, it may be
+interesting when used to compare sound readings at different locations.\n\
+\n\
+This program is free software, and is distributed by its creator free
+of charge.  A free copy, and the source code, can be obtained on the
+project home page; see the About screen.\n\
+\n\
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License at http://www.gnu.org/licenses/gpl-2.0.html
+for more details.\n</string>
+
+
+    <string name="about_text"><b>Audalyzer</b> by Ian Cameron Smith
+(headstay), with Sonagram display by Ozneb.\n\
+\n\
+For information and source code see the project home page.\n\
+\n\
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.\n\
+\n\
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License at http://www.gnu.org/licenses/gpl-2.0.html
+for more details.\n</string>
+
+
+    <string name="menu_prefs">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_eula">Disclaimer</string>
+    <string name="menu_exit">Exit</string>
+    
+    <!-- Preferences strings. -->
+    <string name="prefs_title">Settings</string>
+    <string name="prefs_cat_audio">Audio Analysis Settings</string>
+    <string name="prefs_sample">Sample rate</string>
+    <string name="prefs_sample_summary">Determine the sample rate, and hence frequency range</string>
+    <string name="prefs_sample_title">Sample Rate</string>
+    <string name="prefs_block">Block size</string>
+    <string name="prefs_block_summary">Set the input block size -- larger is slower but finer</string>
+    <string name="prefs_block_title">Block Size</string>
+    <string name="prefs_window">Window function</string>
+    <string name="prefs_window_summary">Set spectrum windowing (to eliminate spurious frequencies)</string>
+    <string name="prefs_window_title">Window Function</string>
+    <string name="prefs_decimate">Decimation</string>
+    <string name="prefs_decimate_summary">Improve performance by processing only a portion of the input</string>
+    <string name="prefs_decimate_title">Decimation</string>
+    <string name="prefs_average">Histogram averaging</string>
+    <string name="prefs_average_summary">Determine amount of smoothing in the histogram</string>
+    <string name="prefs_average_title">Histogram Averaging</string>
+    <string name="prefs_instruments">Instruments visualization</string>
+    <string name="prefs_instruments_summary">Choose which instruments are display</string>
+    <string name="prefs_instruments_title">Instruments visualization</string>
+    <string name="prefs_cat_display">Display Settings</string>
+    <string name="prefs_orient">Screen orientation</string>
+    <string name="prefs_orient_summary">Set your desired screen rotation behaviour</string>
+    <string name="prefs_orient_title">Screen Orientation</string>
+    <string name="prefs_wakelock">Keep device awake</string>
+    <string name="prefs_wakelock_summary_off">The device will sleep normally after the screen times out.</string>
+    <string name="prefs_wakelock_summary_on">The device will stay awake while the app is running.  Warning: battery drain!</string>
+    <string name="prefs_cat_debug">Debug Settings</string>
+    <string name="prefs_stats">Show performance stats</string>
+    <string name="prefs_stats_summary_off">Performance stats are not displayed.</string>
+    <string name="prefs_stats_summary_on">Performance stats are displayed.</string>
+            
+    <!-- Help strings. -->
+    <string name="help_title">Audalyzer User\'s Manual</string>
+        
+    <!-- Button strings. -->
+    <string name="button_ok">OK</string>
+    <string name="button_close">OK</string>
+    <string name="button_license">License</string>
+    <string name="button_homepage">Project</string>
+    
+    <!-- URLs. -->
+    <string name="url_license">http://www.gnu.org/licenses/gpl-2.0.html</string>
+    <string name="url_homepage">http://code.google.com/p/moonblink/wiki/Audalyzer</string>
+    
+</resources>

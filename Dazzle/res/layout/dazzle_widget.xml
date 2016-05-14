@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/dazzle_button"
+		android:layout_width="fill_parent"
+		android:layout_height="76dp"
+		android:orientation="horizontal"
+		android:background="@drawable/appwidget_bg" >
+
+	<LinearLayout android:id="@id/dazzle_ringer"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ringer"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/ringer_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_otringer"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ringer"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/otringer_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+    <LinearLayout android:id="@id/dazzle_radio_settings"
+            android:orientation="vertical"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_mobile_data"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:id="@+id/mobile_data_icon"
+		        android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/radio_off"
+				android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/mobile_data_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/red"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+    <LinearLayout android:id="@id/dazzle_phone_radio"
+            android:orientation="vertical"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/phone_radio_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/red"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_wifi"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/wifi"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/wifi_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+    <LinearLayout android:id="@id/dazzle_wifi_ap"
+            android:orientation="vertical"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wifiap"
+                android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/wifi_ap_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/red"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_bluetooth"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/bluetooth"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/bluetooth_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_gps"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+			android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/gps"
+				android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/gps_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/blue"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_airplane"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/airplane"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/airplane_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_sync"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/sync"
+				android:layout_gravity="center"/>
+
+		<ImageView android:id="@+id/sync_ind"
+				android:layout_width="wrap_content"
+				android:src="@drawable/red"
+				android:layout_gravity="center" android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+    <LinearLayout android:id="@id/dazzle_autorotate"
+            android:orientation="vertical"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rotate"
+                android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/autorotate_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/red"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@id/dazzle_screen_always_on"
+            android:orientation="vertical"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+        <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screenon"
+                android:layout_gravity="center"/>
+
+        <ImageView android:id="@+id/screen_always_on_ind"
+                android:layout_width="wrap_content"
+                android:src="@drawable/red"
+                android:layout_gravity="center" android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_brightness"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/brightness"
+				android:layout_gravity="center"/>
+
+		<TextView android:id="@+id/brightness_ind"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:text="Dazzle"
+				android:textStyle="bold"
+				android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_otbrightness"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/brightness"
+				android:layout_gravity="center"/>
+
+		<TextView android:id="@+id/otbrightness_ind"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:text="Dazzle"
+				android:textStyle="bold"
+				android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_brightauto"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/brightness"
+				android:layout_gravity="center"/>
+
+		<TextView android:id="@+id/brightauto_ind"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:text="Dazzle"
+				android:textStyle="bold"
+				android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@id/dazzle_otbrightauto"
+			android:orientation="vertical"
+			android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/appwidget_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" >
+
+		<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/brightness"
+				android:layout_gravity="center"/>
+
+		<TextView android:id="@+id/otbrightauto_ind"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center"
+				android:text="Dazzle"
+				android:textStyle="bold"
+				android:layout_height="16dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <PreferenceCategory android:title="@string/prefs_cat_data">
+                        
+        <CheckBoxPreference
+                android:key="scanContinuous"
+                android:title="@string/prefs_scancont"
+                android:summaryOff="@string/prefs_scancont_summary_off"
+                android:summaryOn="@string/prefs_scancont_summary_on"
+                android:defaultValue="false" />
+            
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prefs_cat_sound">
+                           
+        <ListPreference
+                android:key="soundMode"
+                android:title="@string/prefs_sound"
+                android:summary="@string/prefs_sound_summary"
+                android:entries="@array/prefs_sound_entries"
+                android:entryValues="@array/prefs_sound_values"
+                android:dialogTitle="@string/prefs_sound_title"
+                android:defaultValue="FULL" />
+                               
+        <CheckBoxPreference
+                android:key="scanSound"
+                android:title="@string/prefs_scansound"
+                android:summaryOff="@string/prefs_scansound_summary_off"
+                android:summaryOn="@string/prefs_scansound_summary_on"
+                android:defaultValue="true" />
+                        
+        <CheckBoxPreference
+                android:key="wifiPing"
+                android:title="@string/prefs_ping"
+                android:summaryOff="@string/prefs_ping_summary_off"
+                android:summaryOn="@string/prefs_ping_summary_on"
+                android:defaultValue="false" />
+            
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prefs_cat_display">
+                                                      
+        <ListPreference
+                android:key="unitsMode"
+                android:title="@string/prefs_units"
+                android:summary="@string/prefs_units_summary"
+                android:entries="@array/prefs_units_entries"
+                android:entryValues="@array/prefs_units_values"
+                android:dialogTitle="@string/prefs_units_title"
+                android:defaultValue="SI" />
+                           
+        <ListPreference
+                android:key="orientationMode"
+                android:title="@string/prefs_orient"
+                android:summary="@string/prefs_orient_summary"
+                android:entries="@array/prefs_orient_entries"
+                android:entryValues="@array/prefs_orient_values"
+                android:dialogTitle="@string/prefs_orient_title"
+                android:defaultValue="1" />
+            
+        <CheckBoxPreference
+                android:key="keepAwake"
+                android:title="@string/prefs_wakelock"
+                android:summaryOff="@string/prefs_wakelock_summary_off"
+                android:summaryOn="@string/prefs_wakelock_summary_on"
+                android:defaultValue="false" />
+            
+    </PreferenceCategory>
+     
+    <PreferenceCategory android:title="@string/prefs_cat_audio">
+
+        <ListPreference
+                android:key="sampleRate"
+                android:title="@string/prefs_sample"
+                android:summary="@string/prefs_sample_summary"
+                android:entries="@array/prefs_sample_entries"
+                android:entryValues="@array/prefs_sample_values"
+                android:dialogTitle="@string/prefs_sample_title"
+                android:defaultValue="8000" />
+
+        <ListPreference
+                android:key="blockSize"
+                android:title="@string/prefs_block"
+                android:summary="@string/prefs_block_summary"
+                android:entries="@array/prefs_block_entries"
+                android:entryValues="@array/prefs_block_values"
+                android:dialogTitle="@string/prefs_block_title"
+                android:defaultValue="256" />
+
+        <ListPreference
+                android:key="windowFunc"
+                android:title="@string/prefs_window"
+                android:summary="@string/prefs_window_summary"
+                android:entries="@array/prefs_window_entries"
+                android:entryValues="@array/prefs_window_values"
+                android:dialogTitle="@string/prefs_window_title"
+                android:defaultValue="BLACKMAN_HARRIS" />
+
+        <ListPreference
+                android:key="decimateRate"
+                android:title="@string/prefs_decimate"
+                android:summary="@string/prefs_decimate_summary"
+                android:entries="@array/prefs_decimate_entries"
+                android:entryValues="@array/prefs_decimate_values"
+                android:dialogTitle="@string/prefs_decimate_title"
+                android:defaultValue="2" />
+
+        <ListPreference
+                android:key="averageLen"
+                android:title="@string/prefs_average"
+                android:summary="@string/prefs_average_summary"
+                android:entries="@array/prefs_average_entries"
+                android:entryValues="@array/prefs_average_values"
+                android:dialogTitle="@string/prefs_average_title"
+                android:defaultValue="4" />
+
+    </PreferenceCategory>
+     
+</PreferenceScreen>
+
